@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Switch : MonoBehaviour {
 
-	public DoorTrigger[] doorTriggers;
+	/*public DoorTrigger[] doorTriggers;
 
 	private Animator animator;
 
@@ -33,5 +33,5 @@ public class Switch : MonoBehaviour {
 				trigger.Toggle(false);
 			}
 		}
-	}
+	}*/
 }
