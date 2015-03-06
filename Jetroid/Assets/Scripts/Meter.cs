@@ -52,14 +52,19 @@ public class Meter : MonoBehaviour {
 		if (air > 0) {
 			air -= Time.deltaTime * airBurnRate;
 		}
-
 		else {
 			Explode script = player.GetComponent<Explode> ();
 			script.OnExplode();
 		}
+
 		GameObject[] artifacts = GameObject.FindGameObjectsWithTag("Artifact");
 		if (totalArtifacts > artifacts.Length) {
-			air = 30f;
+			resetAir();
 		}
+	}
+
+	void resetAir() {
+		air = 30f;
+		totalArtifacts--;
 	}
 }
