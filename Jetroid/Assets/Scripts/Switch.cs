@@ -5,6 +5,7 @@ public class Switch : MonoBehaviour {
 
 	public DoorTrigger[] doorTriggers;
 	public bool sticky;
+	public AudioClip switchSound;
 
 	private bool down;
 	private Animator animator;
@@ -22,6 +23,9 @@ public class Switch : MonoBehaviour {
 	void OnTriggerEnter2D (Collider2D target) {
 		animator.SetInteger ("AnimState", 1);
 		down = true;
+		if (switchSound) {
+			AudioSource.PlayClipAtPoint(switchSound, transform.position);
+		}
 		foreach (DoorTrigger trigger in doorTriggers) {
 			if (trigger != null) {
 				trigger.Toggle(true);

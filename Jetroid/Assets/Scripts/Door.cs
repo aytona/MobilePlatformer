@@ -8,6 +8,7 @@ public class Door : MonoBehaviour {
 	public const int OPEN = 2;
 	public const int CLOSING = 3;
 	public float closeDelay = .5f;
+	public AudioClip doorSound;
 
 	private int state = IDLE;
 	private Animator animator;
@@ -24,6 +25,9 @@ public class Door : MonoBehaviour {
 
 	void OnOpenStart() {
 		state = OPENING;
+		if (doorSound) {
+			AudioSource.PlayClipAtPoint(doorSound, transform.position);
+		}
 	}
 
 	void OnOpenEnd() {

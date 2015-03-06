@@ -22,7 +22,13 @@ public class Explode : MonoBehaviour {
 		}
 	}
 
-	void OnExplode() {
+	void OnCollisionEnter2D (Collision2D target) {
+		if (target.gameObject.tag == "Deadly") {
+			OnExplode();
+		}
+	}
+
+	public void OnExplode() {
 		Destroy (gameObject);
 
 		var t = transform;
@@ -33,5 +39,10 @@ public class Explode : MonoBehaviour {
 			clone.rigidbody2D.AddForce (Vector3.right * Random.Range(-50, 50));
 			clone.rigidbody2D.AddForce (Vector3.up * Random.Range(100, 400));
 		}
+
+		GameObject go = new GameObject("ClickToContinue");
+		ClicktoContinue script = go.AddComponent<ClicktoContinue>();
+		script.scene = Application.loadedLevelName;
+		go.AddComponent<DisplayRestartText>();
 	}
 }
