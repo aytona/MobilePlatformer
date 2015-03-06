@@ -7,8 +7,7 @@ public class AlienC : MonoBehaviour {
 	public Projectile projectile;
 	private Animator animator;
 	public AudioClip attackSound;
-
-	// Use this for initialization
+	
 	void Start () {
 		animator = GetComponent<Animator>();
 
@@ -16,8 +15,7 @@ public class AlienC : MonoBehaviour {
 			StartCoroutine(OnAttack());
 		}
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		animator.SetInteger("AnimState", 0);
 	}

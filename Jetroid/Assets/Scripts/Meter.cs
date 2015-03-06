@@ -12,8 +12,7 @@ public class Meter : MonoBehaviour {
 	public Vector2 airOffset = new Vector2(10, 10);
 
 	private Player player;
-
-	// Use this for initialization
+	
 	void Start () {
 		player = GameObject.FindObjectOfType<Player> ();
 	}
@@ -39,8 +38,7 @@ public class Meter : MonoBehaviour {
 		GUI.DrawTexture (new Rect (0, 0, bgW, bgH), texture);
 		GUI.EndGroup();
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		if (!player) {
 			return;

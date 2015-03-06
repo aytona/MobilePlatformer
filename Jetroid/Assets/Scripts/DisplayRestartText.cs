@@ -4,15 +4,9 @@ using System.Collections;
 public class DisplayRestartText : MonoBehaviour {
 
 	private Texture2D t2D;
-
-	// Use this for initialization
+	
 	void Start () {
 		t2D = Resources.Load<Texture2D>("restart-text");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	void OnGUI() {

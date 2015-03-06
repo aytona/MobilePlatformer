@@ -6,15 +6,9 @@ public class AlienB : MonoBehaviour {
 	private Animator animator;
 	private bool readyToAttack;
 	public AudioClip attackSound;
-
-	// Use this for initialization
+	
 	void Start () {
 		animator = GetComponent<Animator>();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	void OnTriggerStay2D (Collider2D target) {
