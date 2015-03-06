@@ -2,43 +2,55 @@ Initialize engine version: 4.6.2f1 (bd99309c2ad7)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 550 Ti (ID=0x1244)
+    Renderer: NVIDIA GeForce GTX 660M (ID=0xfd4)
     Vendor:   NVIDIA
-    VRAM:     977 MB
+    VRAM:     1990 MB
 Begin MonoManager ReloadAssembly
-Platform assembly: F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.074 seconds
-desktop: 1920x1080 60Hz; virtual: 3286x1080 at 0,0
+Platform assembly: G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.092 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
-Platform assembly: F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\System.Core.dll (this message is harmless)
-UnloadTime: 0.345633 ms
+Platform assembly: G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\System.Core.dll (this message is harmless)
+UnloadTime: 0.376611 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1566.
-Total: 2.224769 ms (FindLiveObjects: 0.051646 ms CreateObjectMapping: 0.012911 ms MarkObjects: 0.126136 ms  DeleteObjects: 0.161229 ms)
+Total: 6.813369 ms (FindLiveObjects: 0.070056 ms CreateObjectMapping: 0.019633 ms MarkObjects: 0.174472 ms  DeleteObjects: 1.589890 ms)
 
-Platform assembly: F:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\System.dll (this message is harmless)
-UnloadTime: 2.106579 ms
+Platform assembly: G:\GitHub\Unity_2D_Training\Jetroid\Build\Desktop\JetroidDesktop_B1_Data\Managed\System.dll (this message is harmless)
+UnloadTime: 2.227095 ms
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 3.211349 ms (FindLiveObjects: 0.092367 ms CreateObjectMapping: 0.027147 ms MarkObjects: 0.301933 ms  DeleteObjects: 0.073496 ms)
+Total: 4.721479 ms (FindLiveObjects: 0.045960 ms CreateObjectMapping: 0.014725 ms MarkObjects: 0.168225 ms  DeleteObjects: 0.036590 ms)
 
-UnloadTime: 2.102937 ms
+UnloadTime: 1.208370 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 2.496575 ms (FindLiveObjects: 0.092036 ms CreateObjectMapping: 0.030127 ms MarkObjects: 0.325438 ms  DeleteObjects: 0.070848 ms)
+Total: 0.626496 ms (FindLiveObjects: 0.045514 ms CreateObjectMapping: 0.016064 ms MarkObjects: 0.171349 ms  DeleteObjects: 0.038375 ms)
 
-UnloadTime: 1.310363 ms
+UnloadTime: 2.030311 ms
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 1.646727 ms (FindLiveObjects: 0.050984 ms CreateObjectMapping: 0.017546 ms MarkObjects: 0.187052 ms  DeleteObjects: 0.041052 ms)
+Total: 1.153931 ms (FindLiveObjects: 0.088798 ms CreateObjectMapping: 0.030789 ms MarkObjects: 0.300307 ms  DeleteObjects: 0.065148 ms)
+
+UnloadTime: 2.106169 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.037020 ms (FindLiveObjects: 0.083443 ms CreateObjectMapping: 0.030343 ms MarkObjects: 0.298969 ms  DeleteObjects: 0.062471 ms)
+
+UnloadTime: 2.197645 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.260132 ms (FindLiveObjects: 0.095491 ms CreateObjectMapping: 0.037036 ms MarkObjects: 0.340467 ms  DeleteObjects: 0.070503 ms)
 
