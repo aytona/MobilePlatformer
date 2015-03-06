@@ -14,9 +14,11 @@ public class Meter : MonoBehaviour {
 
 	private Player player;
 
-	void Awake() {
+	void OnLevelWasLoaded() {
+		if (Application.loadedLevelName == "Level1") {
 		GameObject[] artifacts = GameObject.FindGameObjectsWithTag("Artifact");
 		totalArtifacts = artifacts.Length;
+		}
 	}
 
 	void Start () {
