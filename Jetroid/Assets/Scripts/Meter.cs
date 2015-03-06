@@ -10,9 +10,15 @@ public class Meter : MonoBehaviour {
 	public Texture2D airBarTexture;
 	public int iconWidth = 32;
 	public Vector2 airOffset = new Vector2(10, 10);
+	public int totalArtifacts;
 
 	private Player player;
-	
+
+	void Awake() {
+		GameObject[] artifacts = GameObject.FindGameObjectsWithTag("Artifact");
+		totalArtifacts = artifacts.Length;
+	}
+
 	void Start () {
 		player = GameObject.FindObjectOfType<Player> ();
 	}
@@ -50,6 +56,10 @@ public class Meter : MonoBehaviour {
 		else {
 			Explode script = player.GetComponent<Explode> ();
 			script.OnExplode();
+		}
+		GameObject[] artifacts = GameObject.FindGameObjectsWithTag("Artifact");
+		if (totalArtifacts > artifacts.Length) {
+			air = 30f;
 		}
 	}
 }
